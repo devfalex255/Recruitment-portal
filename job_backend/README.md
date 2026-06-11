@@ -10,16 +10,16 @@
 
 ## Database Configurations: For my case I'm using Mysql
 ## ----- STEP 1: CREATE THE DATABASE CONFIGURATIONS IN settings.py ------------
-`DATABASES = {                                  `
-`    'default': {                               `
-`        'ENGINE': 'django.db.backends.mysql',   `
-`        'NAME': 'job_recruitment_db',           `
-`        'USER': 'PSRS_26_1022_1234',            `
-`        'PASSWORD': '********',                  `
-`        'HOST': 'localhost',                     `
-`        'PORT': '3306',                           `
-`    }                                             `
-`}                                                 `
+DATABASES = {                                  
+    'default': {                               
+        'ENGINE': 'django.db.backends.mysql',   
+        'NAME': 'job_recruitment_db',           
+        'USER': 'PSRS_26_1022_1234',            
+        'PASSWORD': '********',                  
+        'HOST': 'localhost',                     
+        'PORT': '3306',                           
+    }                                             
+}                                                 
 
 ## ----- STEP 2: CREATE THE DATABASE IN MYSQL ------------
 In Terminal type
